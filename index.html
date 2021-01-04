@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Diary</title>
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+
+    <body>
+        <div class="container">
+            <h1 class="title">My Personal Diary</h1>
+            <form id="entryForm">
+                <textarea class="entry-textbox" placeholder="Click here to start typing..." required></textarea><br>
+                <button type="submit" class="submit-button">Submit</button>
+            </form>
+
+            <!-- defining a generic section in our code-->
+            <section id="entries">
+                <div class="entries-nav">
+                    <p>View today's entries!</p>
+                </div>
+            </section>
+
+            <select id="old-entry-choices"></select>
+            <button type="button" class="old-entries-button">View old entry</button>
+        </div>
+        <script src="js/index.js"></script>
+    </body>
+</html>
